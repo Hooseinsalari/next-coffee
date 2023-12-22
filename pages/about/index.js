@@ -1,9 +1,13 @@
-function About() {
+import About from "@/components/modules/About/About";
+import PageHeader from "@/components/modules/PageHeader/PageHeader";
+
+function AboutPage() {
     return (
-        <div>
-            Enter
-        </div>
+        <>
+            <PageHeader title="About Us" />
+            <About />
+        </>
     );
 }
 
-export default About;
+export default AboutPage;
