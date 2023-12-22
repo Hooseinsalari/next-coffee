@@ -8,7 +8,7 @@
       "score": 5,
       "off": 0,
       "type": "cold",
-      "img": "/images/menu-1.jpg"
+      "img": "img/menu-1.jpg"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "score": 4.4,
       "off": 0,
       "type": "hot",
-      "img": "/images/menu-2.jpg"
+      "img": "img/menu-2.jpg"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "score": 4.9,
       "off": 0,
       "type": "cold",
-      "img": "/images/menu-3.jpg"
+      "img": "img/menu-3.jpg"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "score": 5,
       "off": 0,
       "type": "hot",
-      "img": "/images/menu-4.jpeg"
+      "img": "img/menu-1.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "score": 3.1,
       "off": 50,
       "type": "hot",
-      "img": "/images/menu-5.jpeg"
+      "img": "img/menu-2.jpg"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "score": 4.9,
       "off": 0,
       "type": "cold",
-      "img": "/images/menu-6.jpeg"
+      "img": "img/menu-3.jpg"
     }
   ],
   "newsletters": [
@@ -77,35 +77,35 @@
       "username": "Q_Yolme",
       "productID": 1,
       "body": "Wonderful coffee ❤️",
-      "profile": "/images/testimonial-1.jpg"
+      "profile": "img/testimonial-1.jpg"
     },
     {
       "id": 2,
       "username": "Amin Saeedi",
       "productID": 2,
       "body": "Perfect coffee 🙋‍♂️❤️",
-      "profile": "/images/testimonial-2.jpg"
+      "profile": "img/testimonial-2.jpg"
     },
     {
       "id": 3,
       "username": "Sasan Moqaddas",
       "productID": 1,
       "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
-      "profile": "/images/testimonial-3.jpg"
+      "profile": "img/testimonial-3.jpg"
     },
     {
       "id": 4,
       "username": "Alireza Rezaei",
       "productID": 2,
       "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
-      "profile": "/images/testimonial-4.jpg"
+      "profile": "img/testimonial-4.jpg"
     },
     {
       "id": 5,
       "username": "Mmd Mohammadi",
       "productID": 1,
       "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
-      "profile": "/images/testimonial-4.jpg"
+      "profile": "img/testimonial-4.jpg"
     }
   ],
   "messages": [
