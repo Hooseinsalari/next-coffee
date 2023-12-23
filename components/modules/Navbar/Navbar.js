@@ -1,7 +1,10 @@
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const { pathname } = useRouter();
+
   return (
     <div className={`container-fluid p-0 ${styles.nav_bar}`}>
       <nav
@@ -27,17 +30,34 @@ const Navbar = () => {
           <div className={`${styles.navbar_nav} ml-auto p-4`}>
             <Link
               href="/"
-              className={`${styles.nav_link} ${styles.active_nav_link}`}
+              className={`${styles.nav_link} ${
+                pathname === "/" && styles.active_nav_link
+              }`}
             >
               Home
             </Link>
-            <Link href="/about" className={`${styles.nav_link}`}>
+            <Link
+              href="/about"
+              className={`${styles.nav_link} ${
+                pathname === "/about" && styles.active_nav_link
+              }`}
+            >
               About
             </Link>
-            <Link href="/service" className={`${styles.nav_link}`}>
+            <Link
+              href="/service"
+              className={`${styles.nav_link} ${
+                pathname === "/service" && styles.active_nav_link
+              }`}
+            >
               Service
             </Link>
-            <Link href="/menu" className={`${styles.nav_link}`}>
+            <Link
+              href="/menu"
+              className={`${styles.nav_link} ${
+                pathname === "/menu" && styles.active_nav_link
+              }`}
+            >
               Menu
             </Link>
             <div className={`${styles.dropdown}`}>
@@ -59,7 +79,12 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
-            <Link href="/contact" className={`${styles.nav_link}`}>
+            <Link
+              href="/contact"
+              className={`${styles.nav_link} ${
+                pathname === "/contact" && styles.active_nav_link
+              }`}
+            >
               Contact
             </Link>
           </div>
