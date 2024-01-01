@@ -1,8 +1,12 @@
+import PageHeader from "@/components/modules/PageHeader/PageHeader";
+import ContactContent from "@/components/templates/Contact/ContactContent";
+
 function Contact() {
     return (
-        <div>
-            Enter
-        </div>
+        <>
+            <PageHeader title="Contact" />
+            <ContactContent />
+        </>
     );
 }
 
