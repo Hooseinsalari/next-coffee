@@ -1,11 +1,40 @@
-import React from 'react';
+import ProductCard from "@/components/modules/ProductCard/ProductCard";
+import React from "react";
 
-const Pricing = () => {
-    return (
-        <div>
-            
+const Pricing = ({ menuData }) => {
+  return (
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="section-title">
+          <h4
+            class="text-primary text-uppercase"
+            style={{ letterSpacing: "5px" }}
+          >
+            Menu & Pricing
+          </h4>
+          <h1 class="display-4">Competitive Pricing</h1>
         </div>
-    );
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="mb-5">Hot Coffee</h1>
+            {menuData
+              .filter((item) => item.type === "hot")
+              .map((item) => (
+                <ProductCard key={item.id} {...item} />
+              ))}
+          </div>
+          <div class="col-lg-6">
+            <h1 class="mb-5">Cold Coffee</h1>
+            {menuData
+              .filter((item) => item.type === "cold")
+              .map((item) => (
+                <ProductCard key={item.id} {...item} />
+              ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Pricing;
