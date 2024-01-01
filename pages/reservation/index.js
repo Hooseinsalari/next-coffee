@@ -1,8 +1,12 @@
+import PageHeader from "@/components/modules/PageHeader/PageHeader";
+import BookTable from "@/components/templates/Reservation/BookTable";
+
 function Reservation() {
     return (
-        <div>
-            Enter
-        </div>
+        <>
+            <PageHeader title="Reservation" />
+            <BookTable />
+        </>
     );
 }
 
